@@ -1,0 +1,7 @@
+@import "@fontsource/inter/latin-300";
+@import "@fontsource/inter/latin-400";
+@import "@fontsource/inter/latin-600";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
