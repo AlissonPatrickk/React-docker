@@ -4,7 +4,7 @@
 Clone o repositório e instale as dependências:
 
 ```bash
-cd todo-app
+cd docker-frontend
 npm install
 cp .env.example .env # ajuste os valores
 npm run dev
@@ -15,6 +15,6 @@ npm run dev
 Ajuste os valores de `.env.production` e então execute os comandos de `build` e `run`:
 
 ```bash
-docker build -t todo-app .
-docker run -it --rm -p 3000:3000 todo-app
+docker build -t docker-frontend .
+docker run -it --rm -p 3000:3000 docker-frontend
 ```
